@@ -40,7 +40,9 @@
         
         console.log("You can countdown like this:");
         console.log(numList);
-        numList = list.split(sep1)  
+        numList = list.split(sep1).join(sep2);
+        console.log("Or you can countdown like this:");
+        console.log(numList);    
     };
    
 // MAIN
