@@ -15,9 +15,11 @@
         
         for(var i = 0; i < userInput.length; i++)
         {
-          if(userInput.indexOf("@") == userInput.lastIndexOf("@"))
+          if(userInput.indexOf("@") != 0  && userInput.lastIndexOf("@") != (userInput.length - 1) && userInput.indexOf("@") == userInput.lastIndexOf("@"),
+             userInput.indexOf(".") != 0  && userInput.lastIndexOf(".") != (userInput.length - 1) && userInput.indexOf(".") == userInput.lastIndexOf("."),
+             userInput.indexOf("@") != -1 && userInput.indexOf(".") != -1)
           {
-            console.log("You enetered a valid email!");
+            console.log("You entered a valid email!");
             break;          
           }
           else
@@ -41,7 +43,9 @@
 
 
 // MAIN
-    console.log(emailFunct(userEmail));
+
+   
+    
 
 
 
