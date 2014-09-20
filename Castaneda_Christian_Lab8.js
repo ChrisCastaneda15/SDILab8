@@ -44,7 +44,10 @@
 
 // MAIN
 
-   
+    console.log("~~~~~~~~~~~~~~~~~~~~~~PROBLEM ONE~~~~~~~~~~~~~~~~~~~~~~");
+    emailFunct(userEmail);
+    
+    console.log("~~~~~~~~~~~~~~~~~~~~~~PROBLEM TWO~~~~~~~~~~~~~~~~~~~~~~");
     
 
 
