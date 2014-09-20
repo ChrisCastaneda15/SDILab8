@@ -51,7 +51,7 @@
     //emailFunct(userEmail);
     
     console.log("~~~~~~~~~~~~~~~~~~~~~~PROBLEM TWO~~~~~~~~~~~~~~~~~~~~~~");
-    
+    separators(nums,",","/");
 
 
 
